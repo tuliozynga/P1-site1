@@ -1,1 +1,179 @@
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .asides {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .aside {
+        width: 100%; 
+    }
+
+    .infos {
+        width: 100%; 
+    }
+
+    nav {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+    
+
+small {
+    font-size: 12px;
+}
+
+
+body {
+    background-color: #919191;
+    color: #333;
+}
+#titulo-principal {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header {
+    font-size: 30px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blocos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bloco {
+    background: rgb(206, 205, 205);
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.imagem-full img {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagem-texto img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.pesquisa {
+    text-align: center;
+    margin: 20px;
+}
+
+.pesquisa input {
+    padding: 10px;
+    width: 60%;
+}
+
+.pesquisa button {
+    padding: 10px;
+    background: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudo-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.asides {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.aside {
+    background: rgb(206, 206, 206);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.info-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.info-box {
+    background: rgb(206, 206, 206);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
